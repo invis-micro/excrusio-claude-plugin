@@ -1,0 +1,42 @@
+{
+  "name": "excrusio",
+  "version": "1.0.0",
+  "description": "Manage the Excrusio travel CMS (tours, hotels, transfers, flights, blog, media, bookings, reviews, settings) from Claude Code, limited to your own dashboard role via a personal access token.",
+  "author": {
+    "name": "Excrusio"
+  },
+  "homepage": "https://github.com/invis-micro/excrusio-claude-plugin",
+  "repository": "https://github.com/invis-micro/excrusio-claude-plugin",
+  "license": "SEE LICENSE IN LICENSE",
+  "keywords": [
+    "excrusio",
+    "cms",
+    "travel",
+    "mcp",
+    "bookings"
+  ],
+  "mcpServers": "./.mcp.json",
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "userConfig": {
+    "EXCRUSIO_API_URL": {
+      "type": "string",
+      "title": "Excrusio API URL",
+      "description": "Base URL of your Excrusio dashboard (e.g. https://dashboard.example.com). https required except localhost.",
+      "required": true
+    },
+    "EXCRUSIO_TOKEN": {
+      "type": "string",
+      "title": "Personal access token",
+      "description": "Personal access token created in Dashboard > Settings > Integrations > API Tokens (starts with excr_pat_).",
+      "required": true,
+      "sensitive": true
+    },
+    "EXCRUSIO_UPLOAD_ROOT": {
+      "type": "string",
+      "title": "Upload root directory",
+      "description": "Optional. Directory that media_upload may read files from (default: the directory Claude Code was started in).",
+      "required": false
+    }
+  }
+}

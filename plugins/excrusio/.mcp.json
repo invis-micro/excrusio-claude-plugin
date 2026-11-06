@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "excrusio": {
+      "command": "node",
+      "args": ["${CLAUDE_PLUGIN_ROOT}/server/index.js"],
+      "env": {
+        "EXCRUSIO_API_URL": "${user_config.EXCRUSIO_API_URL}",
+        "EXCRUSIO_TOKEN": "${user_config.EXCRUSIO_TOKEN}",
+        "EXCRUSIO_UPLOAD_ROOT": "${user_config.EXCRUSIO_UPLOAD_ROOT}"
+      }
+    }
+  }
+}

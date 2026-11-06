@@ -1,0 +1,21 @@
+{
+  "name": "excrusio",
+  "owner": {
+    "name": "Excrusio",
+    "url": "https://github.com/invis-micro/excrusio-claude-plugin"
+  },
+  "metadata": {
+    "description": "Claude Code plugin for the Excrusio travel CMS: manage content, media, bookings and settings with a scoped personal access token.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "excrusio",
+      "source": "./plugins/excrusio",
+      "description": "Manage the Excrusio travel CMS (tours, hotels, transfers, flights, blog, media, bookings, reviews, settings) from Claude Code, limited to your own dashboard role via a personal access token.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "homepage": "https://github.com/invis-micro/excrusio-claude-plugin"
+    }
+  ]
+}

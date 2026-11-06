@@ -1,0 +1,63 @@
+Excrusio Plugin for Claude Code
+End User License Agreement
+
+Copyright (c) 2026 Excrusio. All rights reserved.
+
+This software (the "Plugin"), consisting of the Claude Code plugin manifest,
+the bundled MCP server ("server/index.js"), the skills, commands and
+documentation distributed with it, is proprietary software of Excrusio
+("Licensor"). It is made available in source-visible form for distribution
+and installation only. It is not open-source software.
+
+1. License grant
+   Subject to this agreement, Licensor grants you a non-exclusive,
+   non-transferable, revocable licence to install and run the Plugin, without
+   modification, solely to connect to an Excrusio installation that you are
+   authorised to use with your own personal access token.
+
+2. Restrictions
+   Except as expressly permitted above, you may not:
+   a. copy the Plugin other than as reasonably required to install and run it;
+   b. modify, translate, adapt or create derivative works of the Plugin;
+   c. distribute, publish, sublicense, rent, lease, lend or otherwise make the
+      Plugin available to third parties, in whole or in part, other than by
+      pointing them to the official distribution at
+      https://github.com/invis-micro/excrusio-claude-plugin;
+   d. reverse engineer, decompile, disassemble or otherwise attempt to derive
+      the source code of the bundled server, except to the extent such
+      restriction is prohibited by applicable law;
+   e. remove or alter any copyright, licence or other proprietary notices;
+   f. use the Plugin to access an Excrusio installation without authorisation,
+      or in breach of the terms of that installation.
+
+3. Third-party components
+   The bundled server includes open-source components that remain under their
+   own licences. They are listed, together with their licence texts, in
+   THIRD_PARTY_NOTICES.md. Nothing in this agreement restricts your rights
+   under those licences with respect to those components.
+
+4. Ownership
+   The Plugin is licensed, not sold. Licensor and its licensors retain all
+   right, title and interest in and to the Plugin, including all intellectual
+   property rights.
+
+5. Termination
+   This licence terminates automatically if you breach any of its terms.
+   Licensor may also terminate it by withdrawing the Plugin from distribution.
+   On termination you must stop using and delete all copies of the Plugin.
+
+6. No warranty
+   THE PLUGIN IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
+
+7. Limitation of liability
+   TO THE MAXIMUM EXTENT PERMITTED BY LAW, IN NO EVENT SHALL LICENSOR BE
+   LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF
+   CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+   PLUGIN OR THE USE OR OTHER DEALINGS IN THE PLUGIN.
+
+8. General
+   If any provision of this agreement is held unenforceable, the remaining
+   provisions remain in effect. This agreement is the entire agreement between
+   you and Licensor regarding the Plugin.
