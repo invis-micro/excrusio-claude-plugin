@@ -1,6 +1,6 @@
 {
   "name": "excrusio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Manage the Excrusio travel CMS (tours, hotels, transfers, flights, blog, media, bookings, reviews, settings) from Claude Code, limited to your own dashboard role via a personal access token.",
   "author": {
     "name": "Excrusio"
